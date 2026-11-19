@@ -2238,30 +2238,7 @@ PODS:
     - React-perflogger (= 0.89.0-rc.2)
     - ReactNativeDependencies
   - ReactNativeDependencies (0.89.0-rc.2)
-  - RNCMaskedView (0.3.2):
-    - hermes-engine
-    - RCTRequired
-    - RCTTypeSafety
-    - React-bridging
-    - React-Core
-    - React-Core-prebuilt
-    - React-cxxstableapi
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-jsi
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-renderercss
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/core
-    - ReactNativeDependencies
-    - Yoga
-  - RNGestureHandler (3.3.0):
+  - RNGestureHandler (3.5.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2647,8 +2624,7 @@ DEPENDENCIES:
   - ReactCodegen (from `build/generated/ios/ReactCodegen`)
   - "ReactCommon/turbomodule/core (from `../../../../node_modules/.pnpm/react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-native+metro-config@0.87.1_@babel+co_e23066d660638cbf0f656fd2f8856cd6/node_modules/react-native/ReactCommon`)"
   - "ReactNativeDependencies (from `../../../../node_modules/.pnpm/react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-native+metro-config@0.87.1_@babel+co_e23066d660638cbf0f656fd2f8856cd6/node_modules/react-native/third-party-podspecs/ReactNativeDependencies.podspec`)"
-  - "RNCMaskedView (from `../../../../node_modules/.pnpm/@react-native-masked-view+masked-view@0.3.2_react-native@0.89.0-rc.2_@babel+core@7.29.7_2bd7a4002f22a3ea394e18a4f709b20d/node_modules/@react-native-masked-view/masked-view`)"
-  - "RNGestureHandler (from `../../../../node_modules/.pnpm/react-native-gesture-handler@3.3.0_react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-n_3176f2f1cdd8579994386740239db015/node_modules/react-native-gesture-handler`)"
+  - "RNGestureHandler (from `../../../../node_modules/.pnpm/react-native-gesture-handler@3.5.0_react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-n_bd2b4f8c828445b84375f0346d443cc1/node_modules/react-native-gesture-handler`)"
   - "RNReanimated (from `../../../../node_modules/.pnpm/react-native-reanimated@4.7.1_patch_hash=0f735c4b33f9af576a7af1a9cffcea5220cbbc671ec2f1_297d63ed7fd3f16780e7a8e158255a1a/node_modules/react-native-reanimated`)"
   - "RNScreens (from `../../../../node_modules/.pnpm/react-native-screens@4.30.1_react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-native+m_a8cb05a6295ffe76dfae4fcd7fce4138/node_modules/react-native-screens`)"
   - "RNWorklets (from `../../../../node_modules/.pnpm/react-native-worklets@0.13.0_patch_hash=0e7ca08ddb565252ea4479e4bb493c5c09756297ba0ec88_ded913a06bf4714887ab6e710e5da08a/node_modules/react-native-worklets`)"
@@ -2889,10 +2865,8 @@ EXTERNAL SOURCES:
     :path: "../../../../node_modules/.pnpm/react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-native+metro-config@0.87.1_@babel+co_e23066d660638cbf0f656fd2f8856cd6/node_modules/react-native/ReactCommon"
   ReactNativeDependencies:
     :podspec: "../../../../node_modules/.pnpm/react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-native+metro-config@0.87.1_@babel+co_e23066d660638cbf0f656fd2f8856cd6/node_modules/react-native/third-party-podspecs/ReactNativeDependencies.podspec"
-  RNCMaskedView:
-    :path: "../../../../node_modules/.pnpm/@react-native-masked-view+masked-view@0.3.2_react-native@0.89.0-rc.2_@babel+core@7.29.7_2bd7a4002f22a3ea394e18a4f709b20d/node_modules/@react-native-masked-view/masked-view"
   RNGestureHandler:
-    :path: "../../../../node_modules/.pnpm/react-native-gesture-handler@3.3.0_react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-n_3176f2f1cdd8579994386740239db015/node_modules/react-native-gesture-handler"
+    :path: "../../../../node_modules/.pnpm/react-native-gesture-handler@3.5.0_react-native@0.89.0-rc.2_@babel+core@7.29.7_@react-n_bd2b4f8c828445b84375f0346d443cc1/node_modules/react-native-gesture-handler"
   RNReanimated:
     :path: "../../../../node_modules/.pnpm/react-native-reanimated@4.7.1_patch_hash=0f735c4b33f9af576a7af1a9cffcea5220cbbc671ec2f1_297d63ed7fd3f16780e7a8e158255a1a/node_modules/react-native-reanimated"
   RNScreens:
@@ -2907,7 +2881,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 8502bfdc46e2804408af2e163049ece181009af4
   DoubleConversion: 501a575c40c0b50c89685762dd3e415e6bb26fb0
-  EXConstants: 0eacd013a7ee96045c86a362e49612183087d0a1
+  EXConstants: f6dad62709a0323753bdf1d318124855c9b68b57
   EXJSONUtils: d59bf6b18639752631a81818559b2675a46f99e2
   EXManifests: b0b83ad894166f7e080b18814c5e73aed46e366e
   Expo: 234302e4bfcebd14145a297d3e9c67a4aca13c9e
@@ -3019,8 +2993,7 @@ SPEC CHECKSUMS:
   ReactCodegen: 58400f0797f97dec9140051bebbf2624f35b6df6
   ReactCommon: 1b6bc68ce1e75e9a246de642b7b00a561b6787ab
   ReactNativeDependencies: 8137bae289f752602bd72101ccab925c1d4d35c8
-  RNCMaskedView: 3c083fa3b863ec66f3b4ac1f55d8b1104c5514f7
-  RNGestureHandler: 369fc3ce61727d74e5a2d802b60199377d850c77
+  RNGestureHandler: 71d3a0b6d569bbf9e1373ee556833527c3f75da4
   RNReanimated: adebe0fc88d6b6e319493415209e40f768fef7bf
   RNScreens: 2a2dc4a9812d59b4427a830b6f93dc025fc35907
   RNWorklets: 099bb9a18c99806ad948909b58fb6c85a3ccc121
@@ -3033,4 +3006,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f33ab45f7ef0d53c0dc6d309fe976e98d9c5c473
 
-COCOAPODS: 1.17.0
+COCOAPODS: 1.16.2
